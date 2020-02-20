@@ -3,3 +3,115 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+.logo img {
+    border-right: 1px solid #DCE0E0;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.owner-details img {
+    border-radius: 50%;
+}
+
+.relationship {
+    color: #909597;
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+.owner-name {
+    color: #909597;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.pet-name {
+    font-size: 1.375rem;
+    color: #666A6C;
+}
+.location {
+    font-size: 1rem;
+    color: #666A6C;
+    font-weight: normal;
+}
+.pet-icons p {
+    color: #909597;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.booking h2 {
+    color: rgba(0,0,0,0.7);
+}
+.booking span {
+    color: rgba(0,0,0,0.6);
+    font-size:  1.125rem;
+}
+.booking-btn {
+    display: inline-block;
+    background-color: rgb(255, 89, 95);
+    border: none;
+    width: 95%;
+    font-size:  1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.75rem 5rem;
+    border-radius: 0.5rem;
+}
+.about h2 {
+    font-size:  1.125rem;
+    color: #565A5C;
+    font-weight: bold;
+}
+.about p {
+    font-size:  0.9375rem;
+    line-height: 22px;
+    font-weight: normal;
+}
+.contact-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FF595F;
+    text-decoration: none;
+}
+.care h5 {
+    font-size: 1.125rem;
+    color: #666A6C;
+}
+.care p {
+    color: #666A6C;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.care span {
+    color: #909597;
+}
+.care time {
+    color: #565A5C;
+}
+.games h5{
+    font-size: 1.125rem;
+    color: #666A6C;
+}
+.games p {
+    color: #666A6C;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.photos img {
+    width: 200px;
+    height: 300px;
+}
+footer p {
+    font-size: 1rem;
+    color: #565A5C;
+}
+footer span {
+    font-weight: bold;
+}
