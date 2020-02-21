@@ -15,7 +15,51 @@ body {
 .hero-image img {
     width: 100%;
 }
+/*
+    CSS for positioning
+ */
 
+.details {
+    text-align: center;
+    border-bottom: 1px solid #DCE0E0;
+    padding: 2rem;
+    background-color: white;
+}
+.pet-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.bark, .kid-friendly, .energetic {
+    width: 100%;
+}
+.about{
+    text-align: center;
+    border-bottom: 1px solid #DCE0E0;
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+.care {
+    padding: 2rem;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DCE0E0;
+}
+.games {
+    padding: 2rem;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DCE0E0;
+}
+.photos {
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+footer {
+    text-align: center;
+}
+/*
+    CSS for styling
+ */
 .owner-details img {
     border-radius: 50%;
 }
@@ -57,12 +101,12 @@ body {
     display: inline-block;
     background-color: rgb(255, 89, 95);
     border: none;
-    width: 95%;
+    width: 80%;
     font-size:  1.5rem;
     font-weight: bold;
     color: white;
     padding: 0.75rem 5rem;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
 }
 .about h2 {
     font-size:  1.125rem;
@@ -83,6 +127,7 @@ body {
 .care h5 {
     font-size: 1.125rem;
     color: #666A6C;
+    margin: 0 0 0.5rem 0 ;
 }
 .care p {
     color: #666A6C;
@@ -98,6 +143,7 @@ body {
 .games h5{
     font-size: 1.125rem;
     color: #666A6C;
+    margin: 0 0 0.5rem 0 ;
 }
 .games p {
     color: #666A6C;
@@ -105,8 +151,8 @@ body {
     font-size: 1rem;
 }
 .photos img {
-    width: 200px;
-    height: 300px;
+    width: 100%;
+
 }
 footer p {
     font-size: 1rem;
@@ -115,3 +161,4 @@ footer p {
 footer span {
     font-weight: bold;
 }
+
