@@ -5,8 +5,12 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Lato',sans-serif;
 }
+
+/*
+    CSS for main sections
+ */
 
 .logo img {
     border-right: 1px solid #DCE0E0;
@@ -15,149 +19,174 @@ body {
 .hero-image img {
     width: 100%;
 }
-/*
-    CSS for positioning
- */
-
 .details {
     text-align: center;
     border-bottom: 1px solid #DCE0E0;
     padding: 2rem;
     background-color: white;
 }
+
 .pet-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
 }
+
 .bark, .kid-friendly, .energetic {
     width: 100%;
 }
-.about{
+
+.about {
     text-align: center;
     border-bottom: 1px solid #DCE0E0;
     padding: 2rem;
     background-color: #F5F5F5;
 }
+
 .care {
     padding: 2rem;
     background-color: #F5F5F5;
     border-bottom: 1px solid #DCE0E0;
 }
+
 .games {
     padding: 2rem;
     background-color: #F5F5F5;
     border-bottom: 1px solid #DCE0E0;
 }
+
 .photos {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #F5F5F5;
+    border-bottom: 1px solid #DCE0E0;
 }
+
 footer {
     text-align: center;
 }
+
 /*
-    CSS for styling
+    CSS for subsections
  */
 .owner-details img {
     border-radius: 50%;
+    width: 100px;
 }
 
 .relationship {
     color: #909597;
     font-weight: normal;
     font-size: 0.875rem;
+    margin: 0.2rem 0;
 }
 
 .owner-name {
     color: #909597;
     font-weight: bold;
     font-size: 0.875rem;
+    margin: 0.1rem 0;
 }
 
 .pet-name {
     font-size: 1.375rem;
     color: #666A6C;
 }
+
 .location {
     font-size: 1rem;
     color: #666A6C;
     font-weight: normal;
 }
+
 .pet-icons p {
     color: #909597;
     font-weight: bold;
     font-size: 0.875rem;
 }
+
 .booking h2 {
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
+
 .booking span {
-    color: rgba(0,0,0,0.6);
-    font-size:  1.125rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.125rem;
 }
+
 .booking-btn {
     display: inline-block;
     background-color: rgb(255, 89, 95);
     border: none;
     width: 80%;
-    font-size:  1.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     padding: 0.75rem 5rem;
     border-radius: 0.2rem;
 }
+
 .about h2 {
-    font-size:  1.125rem;
+    font-size: 1.125rem;
     color: #565A5C;
     font-weight: bold;
 }
+
 .about p {
-    font-size:  0.9375rem;
+    font-size: 0.9375rem;
     line-height: 22px;
     font-weight: normal;
 }
+
 .contact-link {
     font-size: 1rem;
     font-weight: bold;
     color: #FF595F;
     text-decoration: none;
 }
+
 .care h5 {
     font-size: 1.125rem;
     color: #666A6C;
-    margin: 0 0 0.5rem 0 ;
+    margin: 0 0 0.5rem 0;
 }
+
 .care p {
     color: #666A6C;
     font-weight: bold;
     font-size: 1rem;
 }
+
 .care span {
     color: #909597;
 }
+
 .care time {
     color: #565A5C;
 }
-.games h5{
+
+.games h5 {
     font-size: 1.125rem;
     color: #666A6C;
-    margin: 0 0 0.5rem 0 ;
+    margin: 0 0 0.5rem 0;
 }
+
 .games p {
     color: #666A6C;
     font-weight: bold;
     font-size: 1rem;
 }
+
 .photos img {
     width: 100%;
 
 }
+
 footer p {
     font-size: 1rem;
     color: #565A5C;
 }
+
 footer span {
     font-weight: bold;
 }
